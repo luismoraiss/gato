@@ -33,12 +33,14 @@
 
 a {
   color: black;
+ text-decoration: none;
 }
 .imagens {
  display: flex;
  align-items: center;
  justify-content: center;
  padding-top: 80px;
+
 }
 
 
@@ -48,4 +50,13 @@ a {
   width: 100vw;
   height: 80px;
  
+}
+
+
+
+@media (max-width: 600px) {
+  .linha1{
+    width: auto;
+    height: auto;
+  }
 }
